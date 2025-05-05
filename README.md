@@ -1,7 +1,7 @@
 🎥 Studio Ghibli AI Trend Analysis: Ethical Content Classification
 📁 Proyek UTS Data Mining oleh Dhimas Nurcahya
 
-Proyek ini menganalisis tren dan dampak konten AI bergaya Studio Ghibli di media sosial. Fokus utamanya adalah untuk mengklasifikasikan apakah sebuah konten mengandung isu etika atau tidak, menggunakan pendekatan machine learning (Naive Bayes dan Decision Tree). Data yang dianalisis mencakup metrik sosial (likes, shares, comments), parameter teknis (waktu generasi, ukuran file, pemakaian GPU), serta karakteristik tambahan seperti platform dan apakah gambar tersebut diedit secara manual.
+Proyek ini menganalisis tren dan dampak konten AI bergaya Studio Ghibli di media sosial. Fokus utamanya adalah untuk mengklasifikasikan apakah sebuah konten mengandung isu etika atau tidak, menggunakan pendekatan machine learning (Naive Bayes dan Decision Tree). Data yang dianalisis mencakup metrik sosial (likes, shares, comments), parameter teknis (waktu generasi, ukuran file, pemakaian GPU), serta karakteristik tambahan seperti platform dan apakah gambar tersebut diedit secara manual. Dataset yg dipakai berasal dari https://www.kaggle.com/datasets/uom190346a/ai-generated-ghibli-style-image-trends-2025?resource=download
 
 📌 Tujuan Proyek
 1. Mengidentifikasi pola tren dalam konten AI bergaya Studio Ghibli.
@@ -11,7 +11,6 @@ Proyek ini menganalisis tren dan dampak konten AI bergaya Studio Ghibli di media
 
 📊 Dataset
 Dataset yang digunakan adalah ai_ghibli_trend_dataset_v2.csv, berisi kumpulan konten bergaya AI-Ghibli dan informasi metadata sosial dan teknis.
-
 Fitur Utama:
 1. likes, shares, comments
 Jumlah interaksi pengguna di media sosial.
@@ -56,12 +55,6 @@ Mengisi nilai kosong (jika ada) pada kolom numerik menggunakan median dan katego
 - Melakukan prediksi menggunakan kedua model.
 - Menghitung akurasi dan membuat classification report.
 - Menampilkan confusion matrix untuk evaluasi visual.
-
-🧪 Hasil Evaluasi
-Model	          Akurasi (%)	Precision	Recall	F1-Score
-Naive Bayes	    XX.XX	        ...	     ...	    ...
-Decision Tree   YY.YY	        ...	     ...	    ...
-Gantilah XX.XX dan YY.YY dengan hasil akurasi Anda dari Google Colab.
 
 🔍 Insight Utama
 - Konten yang diedit manual memiliki kecenderungan lebih tinggi untuk tidak menimbulkan isu etika.
