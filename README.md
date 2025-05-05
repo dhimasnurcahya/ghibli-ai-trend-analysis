@@ -1,0 +1,1 @@
+# ghibli-ai-trend-analysis
