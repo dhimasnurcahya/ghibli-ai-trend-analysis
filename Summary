@@ -1,0 +1,31 @@
+SUMMARY DATA MINING
+
+Pandas adalah pustaka Python yang digunakan untuk memanipulasi dan menganalisis data dalam bentuk tabel dua dimensi (DataFrame). 
+Dengan Pandas, pengguna dapat membaca data dari berbagai format seperti CSV atau Excel, memeriksa struktur data, 
+menangani data hilang (missing values), serta melakukan agregasi dan transformasi data. Pandas sangat penting dalam tahap 
+eksplorasi awal data karena mempermudah proses pembersihan dan pengolahan data secara efisien.
+
+Matplotlib dan Seaborn merupakan pustaka visualisasi data dalam Python. Matplotlib memberikan kontrol penuh untuk membuat 
+grafik dasar seperti garis, batang, dan histogram, sementara Seaborn mempermudah pembuatan grafik statistik dengan tampilan 
+visual yang lebih estetis dan informatif. Keduanya sangat berguna untuk mengeksplorasi data secara visual, membantu memahami pola, 
+hubungan antar variabel, dan anomali dalam dataset.
+
+Naive Bayes adalah algoritma klasifikasi berbasis probabilitas yang menggunakan Teorema Bayes dengan asumsi bahwa setiap fitur
+dalam data saling independen. Meskipun asumsi ini jarang terpenuhi di dunia nyata, algoritma ini tetap efektif dalam banyak kasus, 
+khususnya dalam klasifikasi teks dan filter spam. Keunggulan utama Naive Bayes adalah kesederhanaannya, kecepatan pelatihan, 
+dan performa yang cukup baik pada dataset besar.
+
+Decision Tree adalah algoritma machine learning yang menggunakan struktur pohon untuk membuat keputusan klasifikasi atau regresi. 
+Data dibagi secara bertingkat berdasarkan fitur yang paling informatif sehingga menghasilkan cabang-cabang yang mengarah pada prediksi akhir. 
+Algoritma ini mudah diinterpretasikan dan cocok untuk data dengan fitur kategorikal maupun numerik, namun memerlukan regulasi seperti pemangkasan 
+(pruning) agar tidak overfitting terhadap data latih.
+
+Machine Learning adalah cabang dari kecerdasan buatan (AI) yang memungkinkan sistem komputer belajar dari data dan meningkatkan performanya 
+seiring waktu tanpa pemrograman eksplisit. Dalam praktiknya, machine learning terdiri dari berbagai pendekatan seperti supervised learning, 
+unsupervised learning, dan reinforcement learning. Supervised learning digunakan untuk masalah klasifikasi dan regresi, sedangkan unsupervised 
+learning digunakan untuk pengelompokan (clustering) dan reduksi dimensi.
+
+Classification merupakan bagian dari supervised learning dalam machine learning yang bertujuan untuk memprediksi label atau kategori dari suatu 
+data berdasarkan fitur yang dimilikinya. Proses klasifikasi biasanya mencakup pembagian data, pelatihan model, prediksi, dan evaluasi performa 
+dengan metrik seperti akurasi, precision, recall, dan confusion matrix. Algoritma klasifikasi seperti Naive Bayes dan Decision Tree sering digunakan 
+untuk tugas-tugas seperti deteksi spam, diagnosis penyakit, dan klasifikasi sentimen.
